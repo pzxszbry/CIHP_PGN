@@ -1,3 +1,6 @@
+## Disclaimer
+This is a slightly modified version of original [CIHP-PGN](https://github.com/Engineering-Course/CIHP_PGN) github repository, for testing with custom parsing datasets with visualization. Please refer to the original repository for details.
+
 ## Part Grouping Network (PGN)
 Ke Gong, Xiaodan Liang, Yicheng Li, Yimin Chen, Ming Yang and Liang Lin, "Instance-level Human Parsing via Part Grouping Network", ECCV 2018 (Oral).
 
@@ -15,6 +18,9 @@ The PGN is trained and evaluated on our [CIHP dataset](http://www.sysu-hcp.net/l
 ### Pre-trained models
 
 We have released our trained models of PGN on CIHP dataset at [google drive](https://drive.google.com/open?id=1Mqpse5Gen4V4403wFEpv3w3JAsWw2uhk).
+
+## Installation
+Run `pip install -r requirements.txt` with python 3.7 and pip installed.
 
 ### Inference
 1. Download the pre-trained model and store in $HOME/checkpoint.
